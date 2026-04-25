@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 
 // --- MOCK DATA ---
-const USER_PIC = "/user_profile_pic_1777122548770.png";
+const USER_PIC = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop";
 const COLLAGE = "/social_avatars_collage_1777122715028.png";
 const POST_1 = "/scenic_post_1_1777122562301.png";
 const POST_2 = "/urban_post_2_1777122580337.png";
@@ -340,7 +340,7 @@ const MessagesPage = () => (
     <div className="max-w-[935px] mx-auto h-[calc(100vh-20px)] mt-4 border border-zinc-200 dark:border-zinc-800 rounded-lg flex overflow-hidden bg-[var(--bg-primary)]">
       <div className="w-full md:w-[350px] border-r border-zinc-200 dark:border-zinc-800 flex flex-col">
         <div className="p-5 font-bold text-lg border-b border-zinc-100 dark:border-zinc-900 flex items-center justify-between">
-           <span>atobaby.ai</span>
+           <span>itsamreshanand</span>
            <EditSquare className="w-5 h-5" />
         </div>
         <div className="p-4 space-y-4">
@@ -399,7 +399,7 @@ const ProfilePage = () => (
       <img src={USER_PIC} className="w-36 h-36 rounded-full border border-zinc-200 dark:border-zinc-800 p-1" />
       <div className="space-y-4">
         <div className="flex items-center gap-5">
-           <h1 className="text-xl">atobaby.ai</h1>
+           <h1 className="text-xl">itsamreshanand</h1>
            <button className="btn-secondary">Edit Profile</button>
            <Settings className="w-6 h-6 cursor-pointer" />
         </div>
@@ -408,7 +408,7 @@ const ProfilePage = () => (
            <div>1.2k followers</div>
            <div>840 following</div>
         </div>
-        <p className="font-bold">Antigravity AI</p>
+        <p className="font-bold">newton schol of technology</p>
         <p className="text-sm">Building the future of social creative experiences. 🚀✨</p>
       </div>
     </header>
@@ -502,8 +502,8 @@ export default function App() {
                   <div className="flex items-center gap-4">
                     <img src={USER_PIC} className="w-11 h-11 rounded-full border border-zinc-200 dark:border-zinc-800" />
                     <div className="text-sm">
-                      <p className="font-semibold">atobaby.ai</p>
-                      <p className="text-zinc-500">Antigravity AI</p>
+                      <p className="font-semibold">itsamreshanand</p>
+                      <p className="text-zinc-500">newton schol of technology</p>
                     </div>
                   </div>
                   <button className="text-link">Switch</button>
